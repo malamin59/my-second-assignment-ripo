@@ -1,0 +1,68 @@
+body {
+  font-family: "Quicksand", serif;
+  font-optical-sizing: auto;
+  font-weight:700 ;
+  font-style: normal;
+}
+
+
+
+
+
+
+/* navication area style */
+.nav_area{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav_area img{
+width: 60px;
+height: 60px;
+}
+nav ul li {
+    list-style: none;
+}
+nav li a {
+    text-decoration: none;
+}
+nav ul li:nth-child(1) a {
+    color: rgb(254, 163, 1);
+}
+nav ul li:nth-child(2) a {
+color: rgb(1, 172, 253);
+}
+nav ul li:nth-child(3) a {
+  color: rgb(5, 212, 223);
+}
+nav ul li:nth-child(4) a {
+  color: rgb(93, 88, 239);
+}
+.nav_ul {
+    display: flex;
+    gap: 30px;
+}
+.nav-h2{
+    display: flex;
+    font-size: 20px;
+}
+.nav_btn button{
+    padding: 8px 25px;
+    border-radius: 12px;
+background: rgb(254, 163, 1);
+border: none;
+color: rgb(255, 255, 255);
+font-family: Quicksand;
+font-size: 20px;
+font-weight: 600;
+line-height: 30px;
+}
+.hembargar_main {
+    display: none;
+}
+/* .hembargar_menu {
+    display: none;
+} */
+
+
+/*   */

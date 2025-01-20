@@ -1,0 +1,41 @@
+/*  THIS IS MY RESPONSIBE STYLE FOLDER */
+
+
+@media screen and (max-width: 576px)  {
+      
+
+    /*  nav area style */
+    .nav_ul {
+        display: none;
+    }
+    .nav_btn {
+        display: none;
+    }
+    .nav_area img {
+  display: none;
+    }
+    nav h2 {
+        display: none;
+    }
+    .hembargar_menu{
+        display: flex;
+        flex-direction: column;
+        width: 30px;
+         flex: end;
+    } 
+    .hembargar_menu span {
+        background-color: rgb(17, 17, 17);
+        height: 3px;
+        margin: 5px auto;
+        width: 100%;
+        border-radius: 2px;
+        cursor: pointer;
+    }
+.hembargar_main {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+}
