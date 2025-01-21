@@ -47,12 +47,15 @@
 #main_section {
     width: 85%;
     margin: 0 auto;
+    /* display: none; */
 }
 /* banner_section area style */
 .banner_section {
     display: flex;
    flex-direction: column-reverse;
    margin: 0 auto;
+   position: relative;
+   top: 50PX;
    /* display: none; */
 }
 .banner_content {
@@ -102,13 +105,101 @@
         line-height: 35px;
         letter-spacing: 0%;
         text-align: center;
-        }
+        } 
         .Standard_Curriculum p {
             padding: 0px 40px ;
         }
 
-    
+    .Our_parent .our_child-1{
+        display: none;
+    }
+.alamin .Our_Stories {
+    display: grid;
+    width: 85%;
+    margin: 0 auto;
+
+}
 
 
+
+
+
+.alamin .our_child{
+    /* Article */
+position: relative;
+width: 140px;
+height: 180px;
+border-radius: 8px;
+background: rgb(255, 255, 255);
+} 
+.alamin {
+    gap: 10px ;
+    /* margin-left: -18px; */
+}
+.our_child  img {
+    width: 100%;
+}
+.our_child {
+    margin: 0 auto;
+}
+.our_child button {
+    text-align: center ;
+position: absolute;
+width: 103.91px;
+height: 22.83px;
+left: 22.83px;
+top: 72px;
+    border-radius: 28.54px;
+background: rgb(149, 178, 38);
+color: rgb(255, 255, 255);
+font-family: Raleway;
+font-size: 9.13px;
+font-weight: 500;
+line-height: 17.12px;
+letter-spacing: 0%;
+text-align: left;
+text-transform: capitalize;
+}
+
+.alamin .our_child h3 {
+    color: rgb(0, 0, 0);
+font-family: Quicksand;
+font-size: 9.13px;
+font-weight: 600;
+line-height: 14px;
+letter-spacing: 0%;
+text-align: left;
+position: relative;
+top: -20px;
+}
+.our_child .our_child_btn-4 {
+    text-align: center ;
+    position: absolute;
+    width: 103.91px;
+    height: 22.83px;
+    left: 18px;
+    top: 74px;
+    background: rgb(93, 88, 240);
+    width: 103.91px;
+    height: 22.83px;
+}
+ .our_child .our_child_btn-5 {
+    text-align: center ;
+    position: absolute;
+    width: 103.91px;
+    height: 22.83px;
+    left: 20px;
+    top:74px;
+    background: rgb(93, 88, 240);
+    width: 103.91px;
+    height: 22.83px;
+}
+ .Our_Stories .Our_Stories_h2{
+    text-align: center;
+}
+
+.our_child {
+
+    }
 
 }
