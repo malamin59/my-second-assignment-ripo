@@ -3,9 +3,9 @@ body {
   font-optical-sizing: auto;
   font-weight:700 ;
   font-style: normal;
-  /* background-image: url(assets/bg.png); */
-  /* background-color: rgba(254, 163, 1, 0.05) ; */
-  /* background: url(assets/bg.png); */
+  background-image: url(assets/bg.png);
+  background-color: rgba(254, 163, 1, 0.05) ;
+  background: url(assets/bg.png);
 
 }
 
