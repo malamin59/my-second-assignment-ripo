@@ -219,7 +219,8 @@ top: -20px;
   .foter_arae {
     width: 100%;
   }
-.foter_arae .footer_child-1 p {
+.foter_arae 
+.footer_child-1 p {
     color: rgb(255, 255, 255);
     font-family: Quicksand;
     font-size: 17px;
@@ -227,7 +228,7 @@ top: -20px;
     line-height: 22x;
     letter-spacing: 0%;
     text-align: left;
-    padding-right: 20PX;
+    padding-right: 40PX;
 }
 
 }
