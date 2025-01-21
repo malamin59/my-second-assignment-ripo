@@ -36,7 +36,7 @@
     justify-content: space-between;
     align-items: center;
     margin: 0 -22px;
-    display: none;
+    /* display: none; */
     }
     .hembargar_main img {
         /* margin-left: -10px; */
@@ -47,7 +47,7 @@
 #main_section {
     width: 85%;
     margin: 0 auto;
-    display: none;
+    /* display: none; */
 }
 /* banner_section area style */
 .banner_section {
@@ -56,7 +56,7 @@
    margin: 0 auto;
    position: relative;
    top: 50PX;
-   display: none;
+   /* display: none; */
 }
 .banner_content {
     width: 100%;
