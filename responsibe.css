@@ -36,7 +36,7 @@
     justify-content: space-between;
     align-items: center;
     margin: 0 -22px;
-    /* display: none; */
+    display: none;
     }
     .hembargar_main img {
         /* margin-left: -10px; */
@@ -47,7 +47,7 @@
 #main_section {
     width: 85%;
     margin: 0 auto;
-    /* display: none; */
+    display: none;
 }
 /* banner_section area style */
 .banner_section {
@@ -56,7 +56,7 @@
    margin: 0 auto;
    position: relative;
    top: 50PX;
-   /* display: none; */
+   display: none;
 }
 .banner_content {
     width: 100%;
@@ -113,6 +113,11 @@
     .Our_parent .our_child-1{
         display: none;
     }
+    .Our_parent 
+        {
+  display: none;
+
+    }
 .alamin .Our_Stories {
     display: grid;
     width: 85%;
@@ -134,8 +139,9 @@ background: rgb(255, 255, 255);
 } 
 .alamin {
     gap: 10px ;
-    /* margin-left: -18px; */
+    margin-left: -8px;
 }
+
 .our_child  img {
     width: 100%;
 }
@@ -197,9 +203,36 @@ top: -20px;
  .Our_Stories .Our_Stories_h2{
     text-align: center;
 }
+.foter_arae{
+    width: 100%;
+}
 
-.our_child {
+.footer_main  {
+    width: 10%;
+    display: flex;
+    flex-direction: column;
+    background: rgb(1, 172, 253);
+    margin-top: -80px;
+    padding: 40px 0px 40px 10px;
+   
+  }
+  .foter_arae {
+    width: 100%;
+  }
 
-    }
+.extra_div_1 {
+    display: flex;
+}
+.footer_child-1 p {
+    color: rgb(255, 255, 255);
+    font-family: Quicksand;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 22x;
+    letter-spacing: 0%;
+    text-align: left;
+    padding-right: 20PX;
+    /* padding: 0px 20px 0px 0px; */
+}
 
 }
